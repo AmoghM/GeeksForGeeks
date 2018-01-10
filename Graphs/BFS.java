@@ -37,6 +37,7 @@ class BFS
 				}
 			}
 		}
+		
 		System.out.println("Breadth First Search Traversal completed");
 	}
 }
