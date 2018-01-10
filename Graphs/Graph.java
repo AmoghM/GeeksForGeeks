@@ -22,6 +22,7 @@ class Graph
 
 	private void printGraph(Graph adj)
 	{
+		System.out.println("Adjacency List for the Graph is: ");
 		for(int itr= 0; itr< adj.numVertices; itr+=1)
 		{
 			System.out.print(itr);
@@ -29,6 +30,7 @@ class Graph
 				System.out.print("==> "+j);
 			System.out.println();
 		}
+		System.out.println();
 	}
 
 	public static LinkedList<Integer> getAdjList(Graph adj, int vertex)
