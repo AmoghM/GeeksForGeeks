@@ -31,7 +31,12 @@ class Graph
 		}
 	}
 
-	public static void createGraph()
+	public static LinkedList<Integer> getAdjList(Graph adj, int vertex)
+	{
+			return adj.list[vertex];
+	}
+
+	public static Graph createGraph()
 	{
 		Graph g = new Graph(10);
 		g.addEdge(g,0,1);
@@ -48,6 +53,8 @@ class Graph
 		g.addEdge(g,8,9);
 
 		g.printGraph(g);
+
+		return g;
 	}
 
 }
