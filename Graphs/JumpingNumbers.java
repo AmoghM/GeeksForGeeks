@@ -1,4 +1,5 @@
 //https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/
+//https://www.geeksforgeeks.org/stepping-numbers/
 import java.util.*;
 class JumpingNumbers
 {
